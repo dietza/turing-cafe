@@ -1,7 +1,8 @@
 .reservation-card {
   color: teal;
   background-color: white;
-  width: 18vw;
+  width: 14rem;
+  height: auto;
   border: .25rem solid teal;
   border-radius: .5rem;
   margin: 1rem;
@@ -18,7 +19,7 @@
   button {
     color: white;
     background-color: teal;
-    width: 12vw;
+    width: 10vw;
     border: .25rem solid teal;
     margin: .5rem;
   }
