@@ -8,7 +8,7 @@ class Form extends Component {
       name: '',
       date: '',
       time: '',
-      numberOfGuests: '',
+      number: '',
     }
   }
 
@@ -25,7 +25,7 @@ class Form extends Component {
       name: this.state.name,
       date: this.state.date,
       time: this.state.time,
-      numberOfGuests: this.state.numberOfGuests,
+      number: this.state.number,
     }
 
     this.props.addReservation(newReservation);
@@ -37,7 +37,7 @@ class Form extends Component {
       name: '',
       date: '',
       time: '',
-      numberOfGuests: '',
+      number: '',
     })
   }
 
@@ -67,9 +67,9 @@ class Form extends Component {
         />
         <input 
         type='text'
-        name='numberOfGuests'
+        name='number'
         placeholder='Number of Guests'
-        value={ this.state.numberOfGuests }
+        value={ this.state.number }
         onChange={ (event) => this.handleInputs(event) }
         />
         <button 
