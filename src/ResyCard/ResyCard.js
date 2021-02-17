@@ -9,6 +9,7 @@ const ResyCard = ({ reservation, key }) => {
       <h3>{ reservation.date }</h3>
       <h3>{`${ reservation.time }pm`}</h3>
       <h3>{`Number of Guests: ${ reservation.number }`}</h3>
+      <button>Cancel</button>
 
     </article>
   )
