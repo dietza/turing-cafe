@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Reservations from '../Reservations/Reservations';
+// import Form from '../Form/Form';
+
+
 class App extends Component {
   constructor() {
     super()
@@ -30,7 +34,7 @@ class App extends Component {
           {/* <Form /> */}
         </section>
         <section className='resy-container'>
-          {/* <Reservations /> */}
+          <Reservations reservations={ this.state.reservations }/>
         </section>
       </div>
     )
